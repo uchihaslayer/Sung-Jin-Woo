@@ -71,15 +71,16 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Heyo Watashi Nico Desu, I am Groups Management Bot !! I can Help You Manage Your Group for you!!, send /help for command list...[.](https://telegra.ph/file/36f504f4c0c2f0f138806.jpg)"""
+PM_START_TEXT = """"I only yearn for Luffy. I have no reason to follow you." Hi,I am Boa Hancock made by @zerohisoka!!, send /help for command list...[.](https://telegra.ph/file/30872fa0a6606c15b077e.jpg)"""
 
 HELP_STRINGS = """
-Hey there, I'm Nico Robins!
-To make me functional, make sure that i have enough rights in your group.
+Hey, oh me Boa Hancock....!
+Give me enough rights else become stone 🗿.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
+- /reverse:To catch waifus some piros like shanu, hinata and God Usopp(Alan)
 
 All commands can be used with the following: / !
 List of all the Modules:
@@ -88,9 +89,9 @@ List of all the Modules:
     "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.",
 )
 
-EREN_IMG = "https://telegra.ph/file/3e06334617f26c66c4f2b.jpg"
+EREN_IMG = "https://telegra.ph/file/30872fa0a6606c15b077e.jpg"
 
-DONATE_STRING = """Durov Is my Cousin By The Way.."""
+DONATE_STRING = """Buy Me A Coffee ☕💜"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -220,23 +221,23 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🚦 ᴜᴘᴅᴀᴛᴇs 🚦",
-                                url="https://t.me/NicoRobin_updates",
+                                url="https://t.me/darlinsz",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text=" ᴡɪᴢᴀʀᴅ ",
-                                url="https://t.me/NicoRobin_updates/5",
+                                url="https://t.me/darlinsz/5",
                             ),
                             InlineKeyboardButton(
                                 text="ɢʀᴏᴜᴘ",
-                                url="https://t.me/The_loli_league/",
+                                url="https://t.me/straydogs",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="⚓️ ʜᴇʟᴘ ⚓️",
-                                url="https://t.me/NicoRobin_robot?start=help",
+                                url="https://t.me/NicoRobin_strawhatbot?start=help",
                             ),
                         ],
                     ],
@@ -244,7 +245,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "A Light Of Revolution Never Sleeps!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "A Light Of Revolution Brings Lol uff!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
