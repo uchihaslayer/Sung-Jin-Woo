@@ -5,7 +5,7 @@
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [Boa Hancock](https://t.me/Boa_Hisokabot).
+Can be found on telegram as [Sung Jin Woo](https://t.me/JinWoo_SuperBot).
 
 The Support group can be reached out to at [Straydogs](https://t.me/straydogs), where you can ask for help about [𝕭𝖔𝖆 𝕳𝖆𝖓𝖈𝖔𝖈𝖐](https://t.me/NicoRobin_strawhatbot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
@@ -168,7 +168,7 @@ Note: the restart bat requires that User account control be disabled.
 For queries or any issues regarding the bot please open an issue ticket or visit us at [Boa Hancock Support](https://t.me/straydogs)
 ## How to setup on Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kiravaibhav129/Boa-Hancock) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nchuuya/Sung-Jin-Woo) 
 
 
 ## Credits
@@ -179,6 +179,6 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [Nico Robin Support](https://t.me/NicoRobin_Support) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Sung Jin Woo Support](https://t.me/NicoRobin_Support) or simply submit a pull request on the readme.
 	
 
