@@ -82,13 +82,12 @@ type /help
 --------------------------------...[.](https://telegra.ph/file/15f02b7d00db8a6ed55ef.mp4)"""
 
 HELP_STRINGS = """
-Hey, oh me Boa Hancock....!
-Give me enough rights else become stone 🗿.
+"I'm going to protect my family, even if it means turning all the hunters in the world against me." 
+Give me enough rights else be hunted by Spammers
 Helpful commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
-- /reverse:To catch waifus some piros like shanu, hinata and God Usopp(Alan)
 
 All commands can be used with the following: / !
 List of all the Modules:
@@ -97,7 +96,7 @@ List of all the Modules:
     "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.",
 )
 
-EREN_IMG = "https://telegra.ph/file/30872fa0a6606c15b077e.jpg"
+EREN_IMG = "https://telegra.ph/file/15f02b7d00db8a6ed55ef.mp4"
 
 DONATE_STRING = """Buy Me A Coffee ☕💜"""
 
