@@ -227,24 +227,24 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🚦 Fed Updates 🚦",
-                                url="https://t.me/JinWooXupdate",
+                                text="Anime Group",
+                                url="https://t.me/straydogs",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text=" Updates ",
+                                text="Bot Updates",
                                 url="https://t.me/JinWooXupdate",
                             ),
                             InlineKeyboardButton(
-                                text="Support",
+                                text="Bot group",
                                 url="https://t.me/JinWooXsupport",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="⚓️ ʜᴇʟᴘ ⚓️",
-                                url="https://t.me/NicoRobin_strawhatbot?start=help",
+                                url="https://t.me/JinWoo_SuperBot?start=help",
                             ),
                         ],
                     ],
@@ -252,7 +252,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "A Light Of Revolution Brings Lol uff!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "World's Weakest Hunter to World's Strongest Hunter!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
