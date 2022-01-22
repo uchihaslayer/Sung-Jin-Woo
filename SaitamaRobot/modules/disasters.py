@@ -68,17 +68,17 @@ def addpiro(update: Update, context: CallbackContext) -> str:
         message.reply_text("This member is already a Retarded DEV")
 
     if user_id in DRAGONS:
-        rt += "Requested HQ to promote a Yonko to Retarded DEV."
+        rt += "Requested HQ to promote a S-Rank Hunter to Retarded DEV."
         data['sudos'].remove(user_id)
         DRAGONS.remove(user_id)
 
     if user_id in DEMONS:
-        rt += "Requested HQ to promote a Vice Yonko to Retarded DEV."
+        rt += "Requested HQ to promote a A-Rank Hunter to Retarded DEV."
         data['supports'].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "Requested HQ to promote a Lieutenant Disaster to Retarded DEV."
+        rt += "Requested HQ to promote a B-rank to Retarded DEV."
         data['whitelists'].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -125,11 +125,11 @@ def addsudo(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        message.reply_text("This member is already a Yonko")
+        message.reply_text("This member is already a S-rank Hunter")
         return ""
 
     if user_id in DEMONS:
-        rt += "Requested HA to promote a Vice Yonko to Admiral."
+        rt += "Requested S-rank to promote a B-rank to A-rank."
         data['supports'].remove(user_id)
         DEMONS.remove(user_id)
 
