@@ -58,13 +58,13 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} is here!",
-                "{} is back!",
-                "{} is now in the chat!",
-                "{} is awake!",
-                "{} is back online!",
+                "{} Weaklings don't show ur face ",
+                "{} Are u an D-ranker! Oh gosh again a weakling",
+                "{} C-Rank training or else be a weakling",
+                "{} World's Weakest Hunter Just Arrived",
+                "{} Yo how are u me Sung Jin Woo",
                 "{} is finally here!",
-                "Welcome back! {}",
+                "Welcome back!  Kiddo {}",
                 "Where is {}?\nIn the chat!",
             ]
             chosen_option = random.choice(options)
