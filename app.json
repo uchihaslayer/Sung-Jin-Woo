@@ -1,5 +1,5 @@
 {
-      "name": "Boa Hancock",
+      "name": "Sung Jin Woo",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,8 +8,8 @@
          "manager",
          "Eren"
       ],   
-  "logo":    "https://telegra.ph/file/a0d48e4db3c62e23c543f.jpg",
- "repository": "https://github.com/zerohisoka/Boa-Hancock",
+  "logo":    "https://telegra.ph/file/a9fbb8342083bcf74c40a.jpg",
+ "repository": "https://github.com/Nchuuya/Sung-Jin-Woo",
    "addons": [
       {
          "options": {
