@@ -223,22 +223,22 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="⛩ sᴜᴘᴘᴏʀᴛ ⛩",
+                                text="Support Group",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🚦 ᴜᴘᴅᴀᴛᴇs 🚦",
-                                url="https://t.me/darlinsz",
+                                text="🚦 Fed Updates 🚦",
+                                url="https://t.me/JinWooXupdate",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text=" ᴡɪᴢᴀʀᴅ ",
-                                url="https://t.me/darlinsz/5",
+                                text=" Updates ",
+                                url="https://t.me/JinWooXupdate",
                             ),
                             InlineKeyboardButton(
-                                text="ɢʀᴏᴜᴘ",
-                                url="https://t.me/straydogs",
+                                text="Support",
+                                url="https://t.me/JinWooXsupport",
                             ),
                         ],
                         [
