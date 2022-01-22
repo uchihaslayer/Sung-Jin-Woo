@@ -71,7 +71,15 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """"I only yearn for Luffy. I have no reason to follow you." Hi,I am Boa Hancock made by @zerohisoka!!, send /help for command list...[.](https://telegra.ph/file/30872fa0a6606c15b077e.jpg)"""
+PM_START_TEXT = """"  ✧    Hi, I am Jin Woo The Monarch Of Shadows. I will be protecting your group from Monsters of dungeon with my Kamish's Wrath     ✧
+
+-------------------------------
+
+Want to see my abilities? 
+
+type /help
+
+--------------------------------...[.](https://telegra.ph/file/15f02b7d00db8a6ed55ef.mp4)"""
 
 HELP_STRINGS = """
 Hey, oh me Boa Hancock....!
