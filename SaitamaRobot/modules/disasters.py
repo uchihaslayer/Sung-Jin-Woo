@@ -68,17 +68,17 @@ def addpiro(update: Update, context: CallbackContext) -> str:
         message.reply_text("This member is already a Retarded DEV")
 
     if user_id in DRAGONS:
-        rt += "Requested HQ to promote a S-Rank Hunter to Retarded DEV."
+        rt += "Requested to promote a S-Rank Hunter to Retarded DEV."
         data['sudos'].remove(user_id)
         DRAGONS.remove(user_id)
 
     if user_id in DEMONS:
-        rt += "Requested HQ to promote a A-Rank Hunter to Retarded DEV."
+        rt += "Requested to promote a A-Rank Hunter to Retarded DEV."
         data['supports'].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "Requested HQ to promote a B-rank to Retarded DEV."
+        rt += "Requested to promote a B-rank to Retarded DEV."
         data['whitelists'].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -129,12 +129,12 @@ def addsudo(update: Update, context: CallbackContext) -> str:
         return ""
 
     if user_id in DEMONS:
-        rt += "Requested S-rank to promote a B-rank to A-rank."
+        rt += "Requested S-rank to promote him to A-rank."
         data['supports'].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "Requested HA to promote a New generations Disaster to Admiral."
+        rt += "Requested A-Rank to promote him to B-Rank."
         data['whitelists'].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -145,7 +145,7 @@ def addsudo(update: Update, context: CallbackContext) -> str:
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + "\nSuccessfully set Disaster level of {} to Admiral!".format(
+        rt + "\nSuccessfully set Disaster level of {} to Hunter!".format(
             user_member.first_name))
 
     log_message = (
